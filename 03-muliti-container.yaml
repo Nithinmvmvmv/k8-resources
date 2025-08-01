@@ -4,10 +4,9 @@ metadeta:
   name: multi-container
   labels:
     project: roboshop
-    purpose: mutlti-container demo
+    purpose: mutlti-container-demo
 spec:
   - name: nginx
     image: nginx
   - name: almalinux
     image: almalinux:9
-      
